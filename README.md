@@ -520,11 +520,11 @@ ab27bc40cec9   none      null      local
 ```
 5. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)**
 ```bash
-Gateway Bluenet: 172.18.0.1. Gateway Rednet: 0.
+Gateway Bluenet: 172.18.0.1. Gateway Rednet: 172.19.0.1.
 ```
 7. What is the network address for the running container c1 and c2? ***(1 mark)***
 ```bash
-Network address c1: 172.18.0.2. Network address c2: 0.
+Network address c1: 172.18.0.2. Network address c2: 172.19.0.2.
 ```
 9. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
 ```bash
